@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>test</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+<h1>test</h1>
+<p>test</p>
+</body>
+<script>
+    console.log("123123123123");
+    var xhr=new XMLHttpRequest();
+    xhr.open("post","/testPost");
+    xhr.setRequestHeader("content-type","application/x-www-form-urlencoded");
+    xhr.onreadystatechange=function () {
+        if(xhr.readyState===4&&xhr.status===200){
+            console.log(xhr.responseText);
+        }
+    }
+    xhr.send("test=1234");
+</script>
+</html>

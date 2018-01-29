@@ -1,0 +1,36 @@
+html,body{margin: 0;padding: 0;}
+.main{display: block;}
+.mainHidden{display: none;}
+
+.subPagesBox{overflow: hidden;height: 100vh;width: 100%;}
+.subPages{position: relative;transition: all .7s;top: 0;left: 0;}
+.subPage1{height: 100vh;width: 100%;background: linear-gradient(hsla(0,0%,5%,.7),hsla(0,0%,5%,.7)) center center no-repeat,url("../images/2.jpeg") center center no-repeat;background-size: 100% 100%,cover;display: flex;flex-direction: column;justify-content: center;align-items: center;}
+.subPage1-Header{color:#ccc;font-size: 600%;margin: 0 0 2em;border-bottom: 4px solid #4271be;}
+.subPage1-Name{color: #ccc;font-size: 200%;margin: 0 0 1em;}
+.subPage1-Title{color: #ccc;font-size: 200%;}
+
+
+.subPage2{height: 100vh;width: 100%;background: #fff;overflow: hidden;position: relative;}
+.subPage2-Decorate1{background: rgba(253,203,12,.8);border-radius: 50% 50%;height: 15em;width: 15em;position: absolute;bottom: -3.5em;left: -2.5em;z-index: 1;}
+.subPage2-Decorate2{background: #aaa;border-radius: 50% 50%;height: 15em;width: 15em;position: absolute;bottom: 1.5em;left: -7.5em;z-index: 0;}
+.subPage2-Decorate3{background: #aaa;border-radius: 50% 50%;height: 10em;width: 10em;position: absolute;top: -4.5em;right: -5.5em;z-index: 0;}
+.subPage2-Decorate4{background: rgba(253,203,12,.8);border-radius: 50% 50%;height: 5em;width: 5em;position: absolute;top: .5em;right: .5em;z-index: 0;}
+
+
+.subPage2-Content1-Box{display: flex;justify-content: center;align-items: center;width: 100%;height: 100%;}
+.subPage2-Content1{height: 60%;width:60%;display: flex;}
+.subPage2-Content1-Left{flex: 1;height: 100%;}
+.subPage2-Content1-Right{flex: 2;height: 100%;font-family: Microsoft YaHei;}
+.subPage2-Content1-Right-Line1{font-size: 270%;color: #333;font-weight: 500;margin: 0 0 .9em;}
+.subPage2-Content1-Right-Line1 > span{margin: 0 1.3em 0 0;}
+.subPage2-Content1-Right-Line2{font-size: 150%;color: #333;font-weight: 500;margin: 0 0 .9em;}
+.subPage2-Content1-Right-Line2 > span{margin: 0 1em 0 0;}
+.subPage2-Content1-Right-Line3{display:flex;flex-direction: row;}
+.subPage2-Content1-Icon1-skill{height: 2em;width: 2em;margin: 0 1em 0 0;background: url("../images/tec.png") center center no-repeat;background-size: 100% 100%;position: relative;top: 1em;}
+.subPage2-Content1-Info1-skill{width: 100%;font-size: 130%;}
+
+.subPage2-Content1-photo{height: 15em;width: 15em;border-radius: 50% 50%;background: url("../images/photo.png") center center no-repeat;background-size:  15em 20em;}
+
+@media screen and (max-width:700px)  {
+
+}
